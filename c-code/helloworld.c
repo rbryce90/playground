@@ -2,9 +2,9 @@
 #import <string.h>
 
 
-int dothis () { 
+int dothis (char saythis[]) { 
 
-    printf("\nhello");
+    printf("%s",  saythis);
     return 0;
 }
 
@@ -56,7 +56,7 @@ int main()
         printf("\n %d", i);
 
     };
-    dothis();
+    dothis("\nhello there my frined it is nice to meet you");
 
     return 0;
 }
